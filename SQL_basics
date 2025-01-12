@@ -1,0 +1,43 @@
+ This repository highlights my learning from the **Coursera course 'SQL for Beginners: Querying Data'**.  
+I completed this course to strengthen my foundational SQL skills for working with relational databases.
+
+---
+
+## Certificate
+You can view my course certificate [here](https://coursera.org/share/ca909b64c2f927045d85db204e23a92e).
+
+---
+
+## Key Concepts Covered
+1. **Introduction to SQL**
+   - Basics of SQL for interacting with databases.
+   - Commands like `SELECT`, `INSERT`, `UPDATE`, and `DELETE`.
+
+2. **Querying Data**
+   - Retrieving data using `SELECT`.
+   - Filtering rows with `WHERE`.
+
+3. **Sorting Data**
+   - Sorting results with `ORDER BY`.
+
+4. **Aggregating Data**
+   - Using functions like `COUNT()`, `SUM()`, `AVG()`, `MAX()`, and `MIN()`.
+
+5. **Grouping Data**
+   - Grouping rows with `GROUP BY`.
+
+6. **Joining Tables**
+   - Combining data from multiple tables with `INNER JOIN`, `LEFT JOIN`, etc.
+
+7. **Subqueries**
+   - Writing queries inside other queries.
+
+---
+
+## Sample Query
+Example of retrieving the top 5 highest-paid employees:
+```sql
+SELECT name, salary 
+FROM employees 
+ORDER BY salary DESC 
+ ;
